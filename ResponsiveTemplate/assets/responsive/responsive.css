@@ -1,0 +1,62 @@
+/*responsive start*/
+            /*copy the media query and put the aditional css, this media query is for responsive only*/
+            .custom-container {
+              margin: 0; /* Adjust margin as needed */
+              padding: 10px; /* Adjust padding as needed */
+          }
+
+          @media (min-width: 576px) {
+              body {
+                  background-color: palegreen;
+              }
+              .custom-container {
+                  max-width: 540px;
+                  margin: 0 auto; /* Center the container */
+                  padding: 15px; /* Adjust padding as needed */
+              }
+          }
+
+          @media (min-width: 768px) {
+              body {
+                  background-color: palevioletred;
+              }
+              .custom-container {
+                  max-width: 720px;
+                  margin: 0 auto; /* Center the container */
+                  padding: 20px; /* Adjust padding as needed */
+              }
+          }
+
+          @media (min-width: 992px) {
+              body {
+                  background-color: black;
+              }
+              .custom-container {
+                  max-width: 960px;
+                  margin: 0 auto; /* Center the container */
+                  padding: 25px; /* Adjust padding as needed */
+              }
+          }
+
+          @media (min-width: 1200px) {
+              body {
+                  background-color: orange;
+              }
+              .custom-container {
+                  max-width: 1140px;
+                  margin: 0 auto; /* Center the container */
+                  padding: 30px; /* Adjust padding as needed */
+              }
+          }
+
+          @media (min-width: 1400px) {
+              body {
+                  background-color: blueviolet;
+              }
+              .custom-container {
+                  max-width: 1320px;
+                  margin: 0 auto; /* Center the container */
+                  padding: 35px; /* Adjust padding as needed */
+              }
+          }
+          /*responsive end*/
